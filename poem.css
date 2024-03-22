@@ -1,0 +1,24 @@
+.poemcontainer{
+/* background: radial-gradient(circle, rgba(238,174,202,1) 49%, rgba(251,247,247,1) 100%); */
+/* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+display:flex;
+justify-content: center;
+text-align: center;
+padding: 100px;
+}
+
+.poemcontainer h1{
+    font-size: 75px;
+    padding: 20px ;
+}
+
+.poemcontainer p{
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .poemcontainer h1{
+        font-size: 36px;
+        padding: 18px ;
+    }
+}

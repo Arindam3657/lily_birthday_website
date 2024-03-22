@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 49%, rgba(251,247,247,1) 100%);
+    background-position: center;
+}
+
+
+.hppybdytuji {
+    height: auto;
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hppybdytuji img{
+    height: 800px;
+    width: 450px;
+    border-radius: 12px;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+ @media(max-width: 600px){
+    .hppybdytuji{
+        width: auto;
+    }
+    .hppybdytuji img{
+        height: 500px;
+        width: 250px;
+        border-radius: 12px;
+    }
+    
+    h1{
+        color: aliceblue;
+        text-align: center;
+    
+    }
+ }

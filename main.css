@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+a,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 49%, rgba(251,247,247,1) 100%);
+    font-family: "Dancing Script",sans-serif;
+    background-position: center;
+}
+
+h1,h2,h3,p,li,a{
+    color: rgb(238, 243, 248);
+}
